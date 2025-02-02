@@ -1,13 +1,17 @@
 import './App.css'
 import Header from './header'
-import Body from './body'
+import About from './about'
+import Projects from './projects'
+import Apropros from './Apropros'
 
 function App() {
 
   return (
-    <div className='bg-[#f1faee] w-full h-full'>
+    <div className='bg-[#f1faee] w-full h-full justify-center'>
       <Header />
-      <Body />
+      <About />
+      <Apropros/>
+      <Projects></Projects>
     </div>
   )
 }
