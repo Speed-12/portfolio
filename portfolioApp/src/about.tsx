@@ -12,7 +12,7 @@ export default function About() {
                     <h2 className='text-2xl'> Etudiant {spécialités[0]} </h2>
                 </div>
                 <div className='w-[50vh]'>
-                    <img src="./src/assets/dev-img.svg" alt="" />
+                    <img src="/assets/dev-img.svg" alt="" />
                 </div>
             </div>
             <div className="">
