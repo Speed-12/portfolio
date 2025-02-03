@@ -16,11 +16,9 @@ export default function Projects() {
                     </h3>
 
                     <ul className="">
-                        <li>languages :</li>
-                        <li>framworks :</li>
-                        <li>Durée :</li>
-                        <li>Equipe :</li>
+                        
                     </ul>
+                    <button className=" text-sm text-white p-2 mt-4 flex bg-gray-900 hover:bg-gray-700 w-fit border border-transparent rounded-lg shadow-md transition-all"> En savoir plus</button>
                 
                 </div>
 
@@ -33,15 +31,13 @@ export default function Projects() {
                     </h3>
 
                     <ul className="">
-                        <li>languages :</li>
-                        <li>framworks :</li>
-                        <li>Durée :</li>
-                        <li>Equipe :</li>
+                        
                     </ul>
+                    <button className=" text-sm text-white p-2 mt-4 flex bg-gray-900 hover:bg-gray-700 w-fit border border-transparent rounded-lg shadow-md transition-all"> En savoir plus</button>
                 
                 </div>
 
-                <div className="flex flex-col w-80 justify-center p-4 m-4 border shadow-lg rounded-md border-gray-300 bg-gray-100 ">
+                <div className="flex flex-col w-80 justify-center p-4 m-4 border shadow-lg rounded-md border-gray-300 bg-white ">
                     <h2>
                         Puissance 4   
                     </h2>
@@ -50,12 +46,10 @@ export default function Projects() {
                     </h3>
 
                     <ul className="">
-                        <li>languages :</li>
-                        <li>framworks :</li>
-                        <li>Durée :</li>
-                        <li>Equipe :</li>
+                        
                     </ul>
-                
+
+                    <button className=" text-sm text-white p-2 mt-4 flex bg-gray-900 hover:bg-gray-700 w-fit border border-transparent rounded-lg shadow-md transition-all"> En savoir plus</button>
                 </div>
             </div>
         </>
