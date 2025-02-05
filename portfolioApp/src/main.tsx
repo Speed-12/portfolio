@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import App from './App';
 import ProjectsPage from './projectsPage';
 import AboutPage from './aboutPage'
+
 const router = createBrowserRouter([
   {
     path:'/',
