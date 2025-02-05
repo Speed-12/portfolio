@@ -37,7 +37,7 @@ export default function Projects() {
                 
                 </div>
 
-                <div className="flex flex-col w-80 justify-center p-4 m-4 border shadow-lg rounded-md border-gray-300 bg-white ">
+                <div className="flex flex-col w-80 justify-center p-4 m-4 border shadow-lg rounded-md border-gray-300 bg-gray-100 ">
                     <h2>
                         Puissance 4   
                     </h2>
