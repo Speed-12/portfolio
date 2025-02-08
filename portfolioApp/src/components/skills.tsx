@@ -1,6 +1,6 @@
-export default function AboutPage() {
+export default function Skills() {
   return (
-    <div className="flex flex-col  w-full items-center">
+    <div className="flex flex-col w-full items-center gap-10 pt-12">
         
         <div className="w-full items-start">
             <h1 className="text-4xl p-5 ">Mes skills.</h1>

@@ -1,6 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 
-export default function About() {
+export default function Intro() {
 
 let specialities = <TypeAnimation
             sequence={[
@@ -42,7 +42,7 @@ let specialities = <TypeAnimation
             </div>
 
             <div className="">
-                <a href="/about">
+                <a className='scroll-smooth ' href="#apropos">
                     <button  className="text-md transition delay-100 duration-200 ease-in-out hover:scale-110 text-white bg-cyan-700 rounded-lg p-3 shadow-md hover:bg-cyan-900">
                         More about me
                     </button>

@@ -1,16 +1,16 @@
 import './App.css'
 import Header from './header'
-import About from './about'
+import Intro from './Intro'
 import Projects from './projects'
 import Apropros from './Apropros'
-import AboutPage from './aboutPage'
+import AboutPage from './components/skills'
 import Contact from './contact'
 function App() {
 
   return (
     <div className=' w-full h-full justify-center'>
       <Header />
-      <About />
+      <Intro />
       <Apropros />
       <Projects />
       <AboutPage />

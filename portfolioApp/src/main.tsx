@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import App from './App';
 import ProjectsPage from './projectsPage';
-import AboutPage from './aboutPage'
+import Skills from './components/skills';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
     errorElement: <div>404 Not Found</div>
   },
   {
-    path:'/about',
-    element:<AboutPage/>,
+    path:'/skills',
+    element:<Skills/>,
     errorElement: <div>404 Not Found</div>
   }
 ]);
