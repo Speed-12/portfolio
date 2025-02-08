@@ -27,12 +27,12 @@ let specialities = <TypeAnimation
 
         <div className='w-full h-lvh flex flex-col justify-evenly items-center p-4'>
             <div className='flex max-lg:flex-col  w-full pt-10 items-center justify-evenly'>
-                <div className='flex flex-col md:w-80 w-fit animate-fade-up animate-ease-in-out shadow-lg rounded-md p-8 border-zinc-300 border'>
-                    <h2 className='text-4xl text-[#457B9D] '>Lucas Piou</h2>
-                    <h2 className='text-2xl'> Etudiant {specialities} </h2>
+                <div className='flex flex-col w-fit p-8 '>
+                    <h2 className='sm:text-7xl text-5xl text-[#457B9D] '>Lucas Piou</h2>
+                    <h2 className='sm:text-4xl text-2xl'> Etudiant {specialities} </h2>
                 </div>
-                <div className='w-[50vh]'>
-                    <img src="/assets/dev-img.svg" alt="" />
+                <div className='sm:w-[60vh] w-[30vh]'>
+                    <img src="/assets/dev.svg" alt="" />
                 </div>
             </div>
             

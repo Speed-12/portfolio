@@ -12,13 +12,13 @@ export default function Header() {
                 <a className="sm:flex hidden" href=""><li className="">à propos</li></a>
               </div>
 
-              <div className="flex flex-row  hover:underline-offset-3 hover:underline hover:text-[#457B9D] items-end gap-1 w-fit">
+              <div className="flex flex-row hover:underline-offset-3 hover:underline hover:text-[#457B9D] items-end gap-1 w-fit">
                 <div>
                 <img src="  /assets/award.svg" alt="" />
                 </div>
-                
-                
-                <a className="sm:flex hidden" href="/projects"><li className="">projets</li></a>
+                <a className="sm:flex hidden" href="/projects">
+                  <li className="">projets</li>
+                </a>
               </div>
 
               <div className="flex flex-row  hover:underline-offset-3 hover:underline hover:text-[#457B9D] items-end  gap-1 w-fit">

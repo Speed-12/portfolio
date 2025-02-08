@@ -11,11 +11,10 @@ function App() {
     <div className=' w-full h-full justify-center'>
       <Header />
       <About />
-      <Apropros/>
-      <Projects/>
-      <AboutPage></AboutPage>
-      <Contact/>
-
+      <Apropros />
+      <Projects />
+      <AboutPage />
+      <Contact />
     </div>
   )
 }
