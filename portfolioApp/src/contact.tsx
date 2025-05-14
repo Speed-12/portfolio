@@ -15,16 +15,9 @@ export default function Contact() {
               
               <li className="flex flex-row gap-1 items-center">
                 <div className="flex w-6 justify-center">
-                 <img src="/assets/phone.svg" alt="" />
-                </div>
-                <p className='text-sm'>lucas.piou1@gmail.com</p>
-              </li>
-
-              <li className="flex flex-row gap-1 items-center">
-                <div className="flex w-6 justify-center">
                   <img src="assets/vite.svg" alt="linkedin" />
                 </div>
-                <p className='text-sm'>https://www.linkedin.com/feed/</p>
+                <a className='text-sm' href="https://www.linkedin.com/in/lucas-piou-041567313/">linkedin</a>
               </li>
 
             </ul>

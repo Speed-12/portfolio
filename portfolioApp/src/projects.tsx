@@ -1,9 +1,11 @@
 import Card from "./components/Card"
 
 const cards = [
-  { title: "Tasselysium", description: "Site web de vente en ligne pour la marque de caffé de luxe Tasselysium.  " },
-  { title: "Skyjoe", description: " Jeux de cartes en ligne avec utilisation de requetes serveur.  " },
-  { title: "Puissance 4", description: " Jeux permmetant de jouer en réseaux a deux personnes.  " },
+  { title: "Tasselysium", description: " Site web de vente en ligne pour la marque de café de luxe Tasselysium.  ", click:()=>{location.href='https://tasselysium.noknok.dev/';}},
+  { title: "Skyjo", description: " Jeux de cartes en ligne avec utilisation de requêtes serveur.  ",click:()=>{} },
+  { title: "Puissance 4", description: " Jeux permettant de jouer en réseau à deux personnes.  " ,click:()=>{}},
+  { title: "Quadtrees", description: " Un petit jeu en go qui utilise le principe de quadtree pour générer une map. ",click:()=>{} },
+  { title: "Melody-odyssey", description: " Projet perso d'un jeu vidéo réalisé durant une Game jam.  ",click:()=>{location.href='https://koriaaaaaaaaaaa.itch.io/melody-odyssey'} },
 ];
 
 export default function Projects() {

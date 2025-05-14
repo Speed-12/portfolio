@@ -3,8 +3,9 @@ interface CardProps {
     title: string;
     description: string;
     index: number;
+    click?: ()=>void;
   }
-const Card:React.FC<CardProps> = ({ title, description, index }) => {
+const Card:React.FC<CardProps> = ({ title, description, index, click}) => {
 
     
   return (
@@ -22,7 +23,7 @@ const Card:React.FC<CardProps> = ({ title, description, index }) => {
                 {description}
             </h3>
 
-            <button className=" text-sm text-white p-2 mt-4 flex bg-gray-900 hover:bg-gray-700 w-fit border border-transparent rounded-lg shadow-md transition-all"> En savoir plus</button>
+            <button onClick={click} className=" text-sm text-white p-2 mt-4 flex bg-gray-900 hover:bg-gray-700 w-fit border border-transparent rounded-lg shadow-md transition-all"> En savoir plus</button>
     </motion.div>
   );
 };
