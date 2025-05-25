@@ -4,8 +4,8 @@ export default function Apropros() {
   <>
     <div className='flex flex-col items-center gap-10 pt-12 w-full'>
 
-        <div id="apropos" className=' p-5 text-4xl w-full'>
-            <h1>A propos.</h1>
+        <div id="apropos" className='sm:xm-[30vw] max p-5 text-4xl w-full'>
+            <h1 className="sm:mx-[10vw]">A propos.</h1>
         </div>
         <div className="flex max-lg:flex-col gap-10 justify-center items-center w-full">
             <p className="sm:text-lg text-sm sm:w-120 w-60">

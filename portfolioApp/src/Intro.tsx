@@ -25,34 +25,16 @@ let specialities = <TypeAnimation
     <> 
     <div className="flex flex-col">
 
-        <div className='w-full h-lvh flex flex-col justify-evenly items-center p-4'>
-            <div className='flex max-lg:flex-col  w-full pt-10 items-center justify-evenly'>
+        <div className='w-full h-lvh flex flex-col items-center p-4'>
+            <div className='flex max-lg:flex-col w-full py-[26vh] items-center justify-around'>
                 <div className='flex flex-col w-fit p-8 '>
-                    <h2 className='sm:text-7xl text-5xl text-[#457B9D] '>Lucas Piou</h2>
-                    <h2 className='sm:text-4xl text-2xl'> Etudiant {specialities} </h2>
-                </div>
-                <div className='sm:w-[60vh] w-[30vh]'>
-                    <img src="/assets/dev.svg" alt="" />
-                </div>
+                    <h2 className='sm:text-7xl text-5xl text-[#000000] py-6 font-[amiri]'>Bienvenue sur mon portfolio</h2>
+                    <h2 className='sm:text-4xl text-2xl text-black'>Etudiant {specialities} </h2>
+                </div> 
             </div>
-            
-            
-            <div>
-                <p id="typing"></p>
-            </div>
-
-            <div className="">
-                <a className='scroll-smooth ' href="#apropos">
-                    <button  className="text-md transition delay-100 duration-200 ease-in-out hover:scale-110 text-white bg-cyan-700 rounded-lg p-3 shadow-md hover:bg-cyan-900">
-                        More about me
-                    </button>
-                </a>
-                
-            </div>     
         </div>
-             
     </div>
         
     </>
-  )
+)
 }

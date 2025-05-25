@@ -3,9 +3,9 @@ export default function Skills() {
     <div className="flex flex-col w-full items-center gap-10 pt-12">
         
         <div className="w-full items-start">
-            <h1 className="text-4xl p-5 ">Mes skills.</h1>
+            <h1 className="sm:mx-[10vw] text-4xl p-5 ">Mes skills.</h1>
         </div>
-        <div className="flex flex-wrap sm:px-32  gap-3 justify-center ">
+        <div className="flex flex-wrap sm:px-32  gap-3 justify-center">
             <div className="flex flex-row w-fit justify-center p-3 m-1 gap-2 border shadow-lg rounded-md border-gray-300 bg-gray-100 transition delay-100 duration-200 ease-in-out hover:scale-110 hover:bg-gray-200 ">
                 <h2>Kotlin</h2>
                 <div className='flex w-6 justify-center'>
