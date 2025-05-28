@@ -47,9 +47,9 @@ return (
 
             <div className="">
                 <a className='scroll-smooth ' href="#apropos">
-                    <img className='duration-300 ease-in-out  delay-200' src="angle-down.svg" alt="" />
-                    <img className='transition-transform duration-500 ease-in-out delay-200' src="angle-down.svg " alt="" />
-                    <img className='animate-bounce delay-500 ' src="angle-down.svg" alt="" />
+                    <img className='animate-bounce' src="angle-down.svg" alt="" />
+                    <img className='animate-bounce' src="angle-down.svg " alt="" />
+                    <img className='animate-bounce' src="angle-down.svg" alt="" />
                 </a>
             </div>     
         </div>
