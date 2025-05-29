@@ -2,7 +2,7 @@
 export default function Header() {
   return (
       <header className={""} >
-        <nav className={" flex flex-row items-center md:justify-around justify-evenly md: p-2 w-full"}>
+        <nav className={" flex flex-row items-center justify-between p-4 w-full"}>
           <a href="/"><h2 className='text-2xl text-indigo-600 font-bold font-[arial]'>LP</h2></a>
 
             <ul className='flex flex-row md:text-xl text-md sm:gap-6 gap-2 items-center md:w'>

@@ -25,19 +25,21 @@ return (
     <> 
     <div className="flex flex-col">
 
-        <div className='w-full h-lvh flex flex-col justify-evenly items-center p-4'>
-            <div className='flex max-lg:flex-col  w-full pt-10 items-center justify-evenly'>
-                <div className='flex flex-col w-fit p-8 '>
+        <div className='w-full h-svh flex flex-col justify-evenly items-center p-4'>
+            <div className='flex max-lg:flex-col  w-full pt-10 items-center justify-between'>
+                <div className='flex flex-col w-fit  '>
                     <h2 className='sm:text-7xl text-5xl text-black font-[arial]'>Lucas Piou</h2>
                     <h2 className='sm:text-4xl text-2xl font-[arial]'> Etudiant {specialities} </h2>
                 </div>
-                <div className='size-fit sm:w-[40vh] w-[30vh] sm:h-[35vh] h-[25vh] rounded-full bg-conic-180 from-indigo-600 via-indigo-200 to-indigo-600" justify-center flex items-end overflow-hidden  '>
-                    {/* <img src="/assets/dev.svg" alt="" /> */}
-                    <div className='sm:w-[30vh] w-[20vh]'>
-
+                    
+                <div className='rounded-b-[260px] relative overflow-hidden h-[700px] w-[520px]'>
+                    <div className='size-fit absolute bottom-0 w-[520px] h-[520px] rounded-full -bg-linear-45 from-indigo-600 to-indigo-400" justify-center flex items-end   '>
+                    </div>
+                    <div className='sm:w-[700px] w-[400px] absolute bottom-0 left-1/2 -translate-x-1/2'>
                         <img src="me-carre-bg-rm.png" alt="" />
                     </div>
                 </div>
+                
             </div>
             
             

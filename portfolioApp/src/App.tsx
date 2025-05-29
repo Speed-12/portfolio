@@ -8,13 +8,15 @@ import Contact from './contact'
 function App() {
 
   return (
-    <div className=' w-full h-full justify-center'>
-      <Header />
-      <Intro />
-      <Apropros />
-      <Projects />
-      <AboutPage />
-      <Contact />
+    <div className='flex w-full h-full justify-center font-[arial]'>
+      <div className='max-w-[60vw]'>
+        <Header />
+        <Intro />
+        <Apropros />
+        <Projects />
+        <AboutPage />
+        <Contact />
+      </div>
     </div>
   )
 }
