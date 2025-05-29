@@ -1,10 +1,11 @@
 import './App.css'
-import Header from './header'
 import Intro from './Intro'
 import Projects from './projects'
 import Apropros from './Apropros'
 import AboutPage from './components/skills'
 import Contact from './contact'
+import BottomHeader from './BottomHeader'
+import Header from './Header'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Projects />
       <AboutPage />
       <Contact />
+      <BottomHeader/>
     </div>
   )
 }

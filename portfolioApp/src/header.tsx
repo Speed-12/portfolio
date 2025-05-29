@@ -1,10 +1,10 @@
 
 export default function Header() {
   return (
-      <header className={""} >
-        <nav className={"flex flex-row items-center justify-between px-[22vw] p-4 w-full"}>
-          <a href="/"><h2 className='text-2xl text-black font-[amiri] font-bold'>Lucas Piou</h2></a>
-
+        <div className="bg-gray-300/40 rounded-4xl m-4 justify-self-center backdrop-blur-md">
+          <nav className="flex flex-row items-center justify-between p-4 gap-[20vw]">
+          <a href="/"><h2 className=' text-2xl text-black font-[amiri] font-bold '>Lucas Piou</h2></a>
+            
             <ul className='flex flex-row md:text-xl text-md sm:gap-6 gap-2 items-center md:w'>
               <div className="flex flex-row items-end gap-1 w-fit hover:underline-offset-3 hover:underline hover:text-[#457B9D]">
                 <div className="" >
@@ -27,8 +27,7 @@ export default function Header() {
                 <a className="sm:flex hidden" href="#contact"><li className="pl-0.5"> contact</li></a>
               </div>
             </ul>
-
-        </nav>
-      </header>
+          </nav>
+        </div>
   )
 }
