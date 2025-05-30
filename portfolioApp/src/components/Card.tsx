@@ -6,7 +6,7 @@ interface CardProps {
     img?: string;
     click?: ()=>void;
   }
-const Card:React.FC<CardProps> = ({ title, description, index, img, click}) => {
+const Card:React.FC<CardProps> = ({ title, description, index, click}) => {
 
     
   return (
