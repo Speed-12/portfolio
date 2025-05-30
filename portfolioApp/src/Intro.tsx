@@ -16,7 +16,7 @@ let specialities = <TypeAnimation
             
             wrapper='span'
             speed={50}
-            style={{ fontSize: '', display: 'inline-block', color:'oklch(51.1% 0.262 276.966)'}}
+            style={{ fontSize: '', display: 'inline-block', color:'#786ae0'}}
             repeat={Infinity}
             >
             </TypeAnimation>
@@ -25,17 +25,17 @@ return (
     <> 
     <div className="flex flex-col">
 
-        <div className='w-full h-svh flex flex-col justify-evenly items-center p-4'>
-            <div className='flex max-lg:flex-col  w-full pt-10 items-center justify-between'>
-                <div className='flex flex-col w-fit  '>
-                    <h2 className='sm:text-7xl text-5xl text-black font-[arial]'>Lucas Piou</h2>
-                    <h2 className='sm:text-4xl text-2xl font-[arial]'> Etudiant {specialities} </h2>
+        <div className='w-full h-[90vh] flex flex-col justify-evenly items-center p-4'>
+            <div className='flex max-lg:flex-col w-full sm:pt-10 items-center justify-between'>
+                <div className='flex flex-col w-fit'>
+                    <h2 className='xl:text-7xl md:text-5xl text-4xl text-black'>Lucas Piou</h2>
+                    <h2 className='xl:text-4xl md:text-3xl text-2xl sm:w-fit w-12 sm:pb-0 pb-10'> Etudiant  {specialities} </h2>
                 </div>
                     
-                <div className='rounded-b-[260px] relative overflow-hidden h-[700px] w-[520px]'>
-                    <div className='size-fit absolute bottom-0 w-[520px] h-[520px] rounded-full -bg-linear-45 from-indigo-600 to-indigo-400" justify-center flex items-end   '>
+                <div className='rounded-b-[25vw] relative overflow-hidden 2xl:w-[20vw] md:w-[25vw] w-[40vw] 2xl:h-[30vw] md:h-[40vw] h-[60vw] -translate-y-[70px]'>
+                    <div className='size-fit absolute bottom-0 2xl:w-[20vw] md:w-[25vw] w-[40vw] 2xl:h-[20vw] md:h-[25vw] h-[40vw] rounded-full -bg-linear-45 from-indigo-600 to-indigo-400" justify-center flex items-end   '>
                     </div>
-                    <div className='sm:w-[700px] w-[400px] absolute bottom-0 left-1/2 -translate-x-1/2'>
+                    <div className='2xl:w-[25vw] md:w-[35vw] w-[50vw] absolute bottom-0 left-1/2 -translate-x-1/2'>
                         <img src="me-carre-bg-rm.png" alt="" />
                     </div>
                 </div>
@@ -47,11 +47,11 @@ return (
                 <p id="typing"></p>
             </div>
 
-            <div className="">
+            <div className="h-fit">
                 <a className='scroll-smooth ' href="#apropos">
-                    <img className='animate-bounce' src="angle-down.svg" alt="" />
-                    <img className='animate-bounce' src="angle-down.svg " alt="" />
-                    <img className='animate-bounce' src="angle-down.svg" alt="" />
+                    <img className='fill-white xl:size-10 md:size-8 size-4 animate-bounce' src="angle-down.svg" alt="" />
+                    <img className='xl:size-10 md:size-8 size-4 animate-bounce' src="angle-down.svg " alt="" />
+                    <img className='xl:size-10 md:size-8 size-4 animate-bounce' src="angle-down.svg" alt="" />
                 </a>
             </div>     
         </div>

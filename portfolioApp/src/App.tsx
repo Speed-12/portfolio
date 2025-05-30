@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './header'
+import Header from './Header'
 import Intro from './Intro'
 import Projects from './projects'
 import Apropros from './Apropros'
