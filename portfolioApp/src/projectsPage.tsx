@@ -1,4 +1,4 @@
-import { Header } from './Header.tsx'
+import { Header } from './HeaderA.tsx'
 import Projects from './projects.tsx'
 
 export default function ProjectsPage() {
