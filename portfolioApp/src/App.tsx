@@ -4,7 +4,7 @@ import Projects from './projects'
 import Apropros from './Apropros'
 import AboutPage from './components/skills'
 import Contact from './contact'
-import Header from './Header'
+import Header from './Header.tsx'
 function App() {
 
   return (
