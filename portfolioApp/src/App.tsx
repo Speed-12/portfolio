@@ -4,13 +4,13 @@ import Projects from './projects'
 import Apropros from './Apropros'
 import AboutPage from './components/skills'
 import Contact from './contact'
-import Header from './Header.tsx'
+import { Header } from './Header'
 function App() {
 
   return (
     <div className='flex w-full h-full justify-center font-[arial]'>
       <div className='max-w-[60vw]'>
-        <Header />
+        <Header></Header>
         <Intro />
         <Apropros />
         <Projects />

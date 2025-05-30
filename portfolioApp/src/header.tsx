@@ -1,5 +1,5 @@
 
-export default function Header() {
+export function Header() {
   return (
       <header className={""} >
         <nav className={" flex flex-row items-center justify-between p-4 w-full"}>
@@ -60,3 +60,4 @@ export default function Header() {
       </header>
   )
 }
+
