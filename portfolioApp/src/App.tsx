@@ -1,10 +1,10 @@
 import './App.css'
-import Header from './Header'
 import Intro from './Intro'
 import Projects from './projects'
 import Apropros from './Apropros'
 import AboutPage from './components/skills'
 import Contact from './contact'
+import Header from './Header'
 function App() {
 
   return (
