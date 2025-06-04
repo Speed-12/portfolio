@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='flex w-full h-full justify-center font-[arial]'>
-      <div className='max-w-[60vw]'>
+      <div className='md:w-[60vw]'>
         <Header></Header>
         <Intro />
         <Apropros />

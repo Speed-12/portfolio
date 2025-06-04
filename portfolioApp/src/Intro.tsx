@@ -29,7 +29,8 @@ return (
             <div className='flex max-lg:flex-col w-full sm:pt-10 items-center justify-between'>
                 <div className='flex flex-col w-fit'>
                     <h2 className='xl:text-7xl md:text-5xl text-4xl text-black'>Lucas Piou</h2>
-                    <h2 className='xl:text-4xl md:text-3xl text-2xl sm:w-fit w-12 sm:pb-0 pb-10'> Etudiant  {specialities} </h2>
+                    <img src="llline.svg" alt="" />
+                    <h2 className='xl:text-4xl md:text-3xl text-2xl sm:w-fit w-12 sm:pb-0 pb-20'> Etudiant  {specialities} </h2>
                 </div>
                     
                 <div className='rounded-b-[25vw] relative overflow-hidden 2xl:w-[20vw] md:w-[25vw] w-[40vw] 2xl:h-[30vw] md:h-[40vw] h-[60vw] -translate-y-[70px]'>
@@ -49,9 +50,9 @@ return (
 
             <div className="h-fit">
                 <a className='scroll-smooth ' href="#apropos">
-                    <img className='fill-white xl:size-10 md:size-8 size-4 animate-bounce' src="angle-down.svg" alt="" />
-                    <img className='xl:size-10 md:size-8 size-4 animate-bounce' src="angle-down.svg " alt="" />
-                    <img className='xl:size-10 md:size-8 size-4 animate-bounce' src="angle-down.svg" alt="" />
+                    <img className='xl:size-[4vh] md:size-[4vh] size-[4vh] animate-bounce' src="angle-down.svg" alt="" />
+                    <img className='xl:size-[4vh] md:size-[4vh] size-[4vh] animate-bounce' src="angle-down.svg " alt="" />
+                    <img className='xl:size-[4vh] md:size-[4vh] size-[4vh] animate-bounce' src="angle-down.svg" alt="" />
                 </a>
             </div>     
         </div>
