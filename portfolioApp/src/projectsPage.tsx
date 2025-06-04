@@ -1,21 +1,8 @@
 import Card from './components/Card.tsx';
 import { Header } from './HeaderA.tsx'
-
+import { cards } from './projects.tsx'
 export default function ProjectsPage() {
-const cardProfessionnels = [
-{ title: "Dashboard", description: "Application de visualisation et de gestion des switches des magasins U.", img:"", click:()=>{location.href='https://tasselysium.noknok.dev/';}},
-];
 
-const cardsScolaire = [
-{ title: "Tasselysium", description: "Site web de vente en ligne pour la marque de café de luxe Tasselysium.", img:"jeuGo.png", click:()=>{location.href='https://tasselysium.noknok.dev/';}},
-{ title: "Puissance 4", description: "Jeux permettant de jouer en réseau à deux personnes." ,click:()=>{}},
-{ title: "Skyjo", description: "Jeux de cartes en ligne avec utilisation de requêtes serveur.",click:()=>{} },
-{ title: "Quadtrees", description: "Un petit jeu en go qui utilise le principe de quadtree pour générer une map.",click:()=>{} },
-];
-
-const cardsPersonels= [
-{ title: "Melody-odyssey", description: " Projet perso d'un jeu vidéo réalisé durant une Game jam.",click:()=>{location.href='https://koriaaaaaaaaaaa.itch.io/melody-odyssey'} },
-];
 
   return (
     <> 
@@ -30,17 +17,17 @@ const cardsPersonels= [
               <div className="flex flex-col w-fit  justify-end">
                 <h3 className="text-2xl p-5">Professionnels.</h3>
                 <div className='flex flex-wrap max-xl:flex-col flex-row items-center w-full gap-2'>
-                    {cardProfessionnels.map((card, index) => (<Card key={index} index={index} {...card}/>))}
+                    {cards[0].map((card, index) => (<Card key={index} index={index} {...card}/>))}
                 </div> 
 
                 <h3 className="text-2xl p-5">Scolaires.</h3>
                 <div className='flex flex-wrap max-xl:flex-col flex-row items-center w-full gap-2'>
-                    {cardsScolaire.map((card, index) => (<Card key={index} index={index} {...card}/>))}
+                    {cards[1].map((card, index) => (<Card key={index} index={index} {...card}/>))}
                 </div>
 
                 <h3 className="text-2xl p-5">Personels.</h3>
                 <div className='flex flex-wrap max-xl:flex-col flex-row items-center w-full gap-2'>
-                    {cardsPersonels.map((card, index) => (<Card key={index} index={index} {...card}/>))}
+                    {cards[2].map((card, index) => (<Card key={index} index={index} {...card}/>))}
                 </div>
 
                 <a href="/">

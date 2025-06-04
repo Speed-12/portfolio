@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
+import DetailsButton from "./DetailsButton";
 interface CardProps {
     title: string;
     description: string;
     index: number;
     img?: string;
+    link?: string;
     click?: ()=>void;
   }
-const Card:React.FC<CardProps> = ({ title, description, index, click}) => {
+const Card:React.FC<CardProps> = ({ title, description, index, link, click}) => {
 
     
   return (
@@ -24,9 +26,10 @@ const Card:React.FC<CardProps> = ({ title, description, index, click}) => {
         <h3 className="text-gray-400">
             {description}
         </h3>
-        <button onClick={click} className="self-end text-sm text-[#514899] p-3 mt-4 flex hover:bg-[#514899] hover:text-white w-fit border border-[#514899] rounded-lg transition-all">
+        <DetailsButton name="En savoir plus" link={link} onClick={click}/>
+        {/* <button onClick={click} className="self-end text-sm text-[#514899] p-3 mt-4 flex hover:bg-[#514899] hover:text-white w-fit border border-[#514899] rounded-lg transition-all">
           En savoir plus
-        </button>
+        </button> */}
       </div>
       
     </motion.div>
