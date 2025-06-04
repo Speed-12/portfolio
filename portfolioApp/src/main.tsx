@@ -13,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/projects',
-    element:<ProjectsPage></ProjectsPage>,
+    element:<ProjectsPage/>,
     errorElement: <div>404 Not Found</div>
   },
   {
