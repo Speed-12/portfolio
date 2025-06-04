@@ -21,10 +21,12 @@ export default function Projects() {
                         <div className='flex flex-nowrap max-xl:flex-col flex-row items-center w-full gap-2'>
                             {cards.map((card, index) => (<Card key={index} index={index} {...card}/>))}
                         </div> 
+                        <a href="/projects">
+                            <button className="flex self-end w-fit mx-4 px-10 py-3 text-md bg-[#514899] text-white p-2 mt-4 hover:scale-105 rounded-lg transition-all">
+                                Découvrir plus
+                            </button>
+                        </a>
                         
-                        <button className="flex self-end w-fit mx-4 px-10 py-3 text-md bg-[#514899] text-white p-2 mt-4 hover:scale-105 rounded-lg transition-all">
-                            Découvrir plus
-                        </button>
                     </div>
                 </div>
             </div>
